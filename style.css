@@ -1,3 +1,109 @@
 *{
     margin: 0;
 }
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position:
+    top -400px left -150px,
+    top 350px right -120px,
+    bottom 0px right 10px,
+    bottom 10px left 10px;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    text-align: center;
+}
+
+.bg img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.profile img{
+    border: 5px solid #fff;
+    border-radius: 100px;
+    margin-top: -55px ;
+}
+
+section{
+    background-color: #fff;
+    width: 325px;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+    top: 150px;
+}
+
+.name{
+    padding: 20px;
+}
+
+.name h2{
+    font-weight: 700;
+    margin: 0;
+}
+
+.name span{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.name p {
+    color: hsl(0, 0%, 59%);
+}
+
+span{
+    color: hsl(0, 0%, 59%);
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content p{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.content span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+hr{
+    color:hsl(0, 0%, 59%);
+}
+
+
+/* ==
+Attribution
+== */
+
+.attribution {
+     font-size: 11px; text-align: center;
+     position: relative;
+     top: 150px;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+.color{
+    background-color: hsl(0, 0%, 59%), hsl(227, 10%, 46%), hsl(229, 23%, 23%), hsl(185, 75%, 39%);
+}
+
+/* @media (max-width:375px) {
+    body{
+        background-position:
+        top -170px left -150px,
+        top 400px right -160px,
+        bottom 0px right 10px,
+        bottom 10px left 10px;
+        background-size: 80%;
+    }
+} */
