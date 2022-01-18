@@ -33,7 +33,7 @@ section{
     margin: 0 auto;
     border-radius: 15px;
     position: relative;
-    top: 150px;
+    top: 125px;
 }
 
 .name{
@@ -96,14 +96,3 @@ Attribution
 .color{
     background-color: hsl(0, 0%, 59%), hsl(227, 10%, 46%), hsl(229, 23%, 23%), hsl(185, 75%, 39%);
 }
-
-/* @media (max-width:375px) {
-    body{
-        background-position:
-        top -170px left -150px,
-        top 400px right -160px,
-        bottom 0px right 10px,
-        bottom 10px left 10px;
-        background-size: 80%;
-    }
-} */
